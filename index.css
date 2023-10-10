@@ -1,0 +1,478 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+  #attribution:hover {
+    color: hsl(180, 14%, 20%);
+  }
+
+  * {
+    padding: 0;
+    margin: 0;
+  }
+
+  body {
+    font-family: 'League Spartan';
+    font-size: 15px;
+    background-color: hsl(180, 52%, 96%);
+  }
+
+  .navbar img {
+    width: 100%;
+  }
+
+  .navbar {
+    background-image: url(./images/bg-header-desktop.svg);
+    width: 100%;
+    height: 150px;
+    background-color: hsl(180, 29%, 50%);
+  }
+
+  .user_time {
+    display: flex;
+    width: 58%;
+    font-size: 12px;
+    justify-content: space-around;
+  }
+
+  .main_first {
+    display: flex;
+    width: 40%;
+    justify-content: space-evenly;
+  }
+
+  #second {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    justify-content: space-evenly;
+  }
+
+  #third {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+  }
+
+  #third div {
+    margin-left: 20px;
+    padding: 5px;
+    border-radius: 3px;
+    background-color: hsl(180, 45%, 84%);
+  }
+
+  #third div:hover {
+    color: white;
+    background-color: hsl(180, 29%, 50%);
+    cursor: pointer;
+  }
+
+  #third div p {
+    display: flex;
+    justify-content: center;
+  }
+
+  .main_second {
+    width: 60%;
+    display: flex;
+  }
+
+  .user_time p {
+    color: hsl(180, 29%, 50%);
+  }
+
+  #user_name p {
+    color: hsl(180, 29%, 50%);
+  }
+
+  #user_level p:hover {
+    cursor: pointer;
+    color: hsl(180, 29%, 50%);
+  }
+
+  @media only screen and (max-width: 414px) {
+
+    .navbar {
+      background-image: url("./images/bg-header-mobile.svg");
+    }
+
+    .filter {
+      margin-left: 6.5%;
+    }
+
+    .delete-button {
+      display: flex;
+      max-width: 100%;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .main_first {
+      width: 100%;
+      flex-direction: column;
+    }
+
+    #companyName {
+      padding: 3px;
+      width: 70%;
+    }
+
+    #companyRole {
+      padding: 3px;
+      width: 70%;
+    }
+
+    .pop-container {
+      overflow: auto;
+    }
+
+    .main {
+      flex-direction: column;
+    }
+
+    .main_second {
+      width: 100%;
+      max-width: 100%;
+      margin-top: 12px;
+    }
+
+    #first {
+      display: flex;
+      justify-content: center;
+    }
+
+    #second {
+      display: flex;
+      width: 100%;
+      align-items: center;
+      margin-top: 5px;
+    }
+
+    #second div {
+      margin-top: 5px;
+    }
+
+    #third div {
+      margin-top: 5px;
+    }
+  }
+
+  .main {
+    padding: 10px;
+    display: flex;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: white;
+    position: relative;
+    overflow: hidden;
+    box-shadow: -5px 0 5px rgba(0, 0, 0, 0.1), 5px 0 5px rgba(0, 0, 0, 0.1), 0 5px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .main:hover {
+    transform: scale(1.01);
+  }
+
+  .main::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 5px;
+    height: 100%;
+    background-color: hsl(180, 29%, 50%);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    z-index: -1;
+  }
+
+  .feedback {
+    background-color: hsl(180, 45%, 84%);
+    padding: 7px 15px;
+    border-radius: 10px;
+    border: 1px;
+    border-color: #46b8da;
+  }
+
+  .feedback p {
+    font-size: 15px;
+  }
+
+  #mybutton {
+    position: fixed;
+    bottom: 55px;
+    right: 15px;
+  }
+
+  .feedback:hover {
+    color: white;
+    background-color: hsl(180, 39%, 60%);
+    cursor: pointer;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+
+  .pop-container {
+    background-color: hsl(180, 36%, 65%);
+    border-radius: 10px;
+    padding: 20px;
+    position: fixed;
+    width: 70%;
+    top: 15%;
+    max-height: 80%;
+    border: 2px solid cadetblue;
+    border-color: cadetblue;
+    overflow: auto;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    display: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    transform: scale(0.95);
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .pop-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+
+  .pop-container label {
+    margin-top: 10px;
+    display: block;
+    font-weight: bold;
+  }
+
+
+  .popup-container {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 238, 238, 0.7);
+    z-index: 9999;
+  }
+
+  .popup-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(132, 209, 212);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+
+  .popup-content p {
+    margin-bottom: 5px;
+  }
+
+  .popup-content h2 {
+    margin-bottom: 10px;
+  }
+
+  .close-popup {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  .close-popup1 {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  #lang_check {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #tool_check {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #lang_check label {
+    font-size: 12px;
+    padding: 0 15px;
+  }
+
+  #tool_check label {
+    font-size: 12px;
+    padding: 0 15px;
+  }
+
+
+
+  .submit-button {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .submit-button input {
+    background-color: hsl(180, 45%, 84%);
+    padding: 10px 14px;
+    border-radius: 10px;
+    border: 1px;
+    border-color: #46b8da;
+  }
+
+  .submit-button input:hover {
+    color: white;
+    background-color: hsl(180, 25%, 44%);
+    cursor: pointer;
+  }
+
+  input[type="text"] {
+    padding: 7px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 10px;
+    width: 50%;
+    box-sizing: border-box;
+  }
+
+  .delete-button {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .delete-button button {
+    background-color: hsl(180, 25%, 44%);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+
+  .delete-job:hover {
+    background-color: #cc0000;
+  }
+
+  .details:hover {
+    background-color: #fffb0e;
+    color: black;
+  }
+
+  #newfirst {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  .filter {
+    background-color: white;
+    width: 80%;
+    height: 10%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    padding: 10px;
+    position: absolute;
+    overflow: scroll;
+    top: 12%;
+    margin-left: 9.2%;
+  }
+
+  .filter #filter {
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+
+  .filter #filter p {
+    margin-right: 15px;
+  }
+
+  .close-popup2 {
+    cursor: pointer;
+    font-size: 10px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: hsl(180, 29%, 50%);
+    padding: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    overflow: hidden;
+  }
+
+  .close-popup2:hover {
+    background-color: black;
+  }
+
+  #filter {
+    display: flex;
+    padding: 3px;
+    margin-left: 7px;
+    margin-top: 5px;
+    background-color: hsl(180, 45%, 84%);
+    align-items: center;
+    position: relative;
+    border-radius: 4px;
+  }
+
+  #clear-button {
+    position: absolute;
+    top: 12%;
+    right: 10px;
+    display: flex;
+    align-items: center;
+  }
+
+  .clear-link {
+    color: hsl(180, 29%, 50%);
+  }
+
+  .clear-link:hover {
+    color: hsl(180, 14%, 20%);
+    cursor: pointer;
+  }
+
+  footer {
+    background-color: hsl(180, 29%, 50%);
+    color: #fff;
+    text-align: center;
+    margin-top: 5%;
+    bottom: 0;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+  }
+
+  .footer-content {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  #job-listings {
+    padding-bottom: 80px;
+  }

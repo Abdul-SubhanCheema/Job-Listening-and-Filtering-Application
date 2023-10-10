@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Job Listings</title>
+  <link href='https://fonts.googleapis.com/css?family=League Spartan' rel='stylesheet'>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <div class="navbar"></div>
+  <div class="filter">
+    <!-- <div id="filter">
+      <p>content</p>
+      <span class="close-popup2">&times;</span>
+    </div> -->
+    <div id="clear-button">
+      <div class="clear">
+        <a href="#" class="clear-link">clear</a>
+      </div>
+    </div>
+  </div>
+  <div id="job-listings">
+    <div class="main">
+      <div class="main_first">
+        <div id="first">
+          <img src="./images/photosnap.svg" alt="loading...">
+        </div>
+        <div id="second">
+          <div id="user_name" style="font-size: 15px;">
+            <p>Snapshot</p>
+          </div>
+          <div id="user_level">
+            <p><strong>Junior Frontend Developer</strong></p>
+          </div>
+          <div class="user_time">
+            <div id="user_time">
+              <p>1day ago</p>
+            </div>
+            <div id="user_contract">
+              <p> Full Time</p>
+            </div>
+            <div id="user_location">
+              <p>USA only</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main_second">
+        <div id="third">
+          <div id="role">
+            <p>Front-End</p>
+          </div>
+          <div id="level">
+            <p>Senior</p>
+          </div>
+          <div id="language">
+            <p>Html</p>
+          </div>
+          <div id="language">
+            <p>CSS</p>
+          </div>
+          <div id="tool">
+            <p>React</p>
+          </div>
+        </div>
+      </div>
+      <div class="delete-button">
+        <button class="delete-job">Delete</button>
+        <button class="details">Detail</button>
+      </div>
+    </div>
+    <div class="main">
+      <div class="main_first">
+        <div id="first">
+          <img src="./images/myhome.svg" alt="loading...">
+        </div>
+        <div id="second">
+          <div id="user_name" style="font-size: 15px;">
+            <p>MyHome</p>
+          </div>
+          <div id="user_level">
+            <p><strong>Junior Frontend Developer</strong></p>
+          </div>
+          <div class="user_time">
+            <div id="user_time">
+              <p>5day ago</p>
+            </div>
+            <div id="user_contract">
+              <p> Full Time</p>
+            </div>
+            <div id="user_location">
+              <p>USA only</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main_second">
+        <div id="third">
+          <div id="role">
+            <p>Front-End</p>
+          </div>
+          <div id="level">
+            <p>Senior</p>
+          </div>
+          <div id="language">
+            <p>Html</p>
+          </div>
+          <div id="tool">
+            <p>React</p>
+          </div>
+        </div>
+      </div>
+      <div class="delete-button">
+        <button class="delete-job">Delete</button>
+        <button class="details">Detail</button>
+      </div>
+    </div>
+    <div class="main">
+      <div class="main_first">
+        <div id="first">
+          <img src="./images/manage.svg" alt="loading...">
+        </div>
+        <div id="second">
+          <div id="user_name" style="font-size: 15px;">
+            <p>Manage</p>
+          </div>
+          <div id="user_level">
+            <p><strong>Full Stack Developer</strong></p>
+          </div>
+          <div class="user_time">
+            <div id="user_time">
+              <p>1day ago</p>
+            </div>
+            <div id="user_contract">
+              <p> Part Time</p>
+            </div>
+            <div id="user_location">
+              <p>Remote</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main_second">
+        <div id="third">
+          <div id="role">
+            <p>Fullstack</p>
+          </div>
+          <div id="level">
+            <p>Midweight</p>
+          </div>
+          <div id="language">
+            <p>Python</p>
+          </div>
+          <div id="tool">
+            <p>React</p>
+          </div>
+        </div>
+      </div>
+      <div class="delete-button">
+        <button class="delete-job">Delete</button>
+        <button class="details">Detail</button>
+      </div>
+    </div>
+    <div class="main">
+      <div class="main_first">
+        <div id="first">
+          <img src="./images/account.svg" alt="loading...">
+        </div>
+        <div id="second">
+          <div id="user_name" style="font-size: 15px;">
+            <p>Account</p>
+          </div>
+          <div id="user_level">
+            <p><strong>Junior Frontend Developer</strong></p>
+          </div>
+          <div class="user_time">
+            <div id="user_time">
+              <p>2day ago</p>
+            </div>
+            <div id="user_contract">
+              <p> Part Time</p>
+            </div>
+            <div id="user_location">
+              <p>USA only</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main_second">
+        <div id="third">
+          <div id="role">
+            <p>Front-End</p>
+          </div>
+          <div id="level">
+            <p>Junior</p>
+          </div>
+          <div id="tool">
+            <p>React</p>
+          </div>
+          <div id="tool">
+            <p>Sass</p>
+          </div>
+        </div>
+      </div>
+      <div class="delete-button">
+        <button class="delete-job">Delete</button>
+        <button class="details">Detail</button>
+      </div>
+    </div>
+    <div class="main">
+      <div class="main_first">
+        <div id="first">
+          <img src="./images/loop-studios.svg" alt="loading...">
+        </div>
+        <div id="second">
+          <div id="user_name" style="font-size: 15px;">
+            <p>Loop Studios</p>
+          </div>
+          <div id="user_level">
+            <p><strong> Software Engineer</strong></p>
+          </div>
+          <div class="user_time">
+            <div id="user_time">
+              <p>1w ago</p>
+            </div>
+            <div id="user_contract">
+              <p>Full Time</p>
+            </div>
+            <div id="user_location">
+              <p>Worldwide</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main_second">
+        <div id="third">
+          <div id="role">
+            <p>Fullstack</p>
+          </div>
+          <div id="level">
+            <p>Midweight</p>
+          </div>
+          <div id="language">
+            <p>JavaScript</p>
+          </div>
+          <div id="language">
+            <p>Ruby</p>
+          </div>
+          <div id="tool">
+            <p>Sass</p>
+          </div>
+        </div>
+      </div>
+      <div class="delete-button">
+        <button class="delete-job">Delete</button>
+        <button class="details">Detail</button>
+      </div>
+    </div>
+  </div>
+  <div id="mybutton">
+    <button class="feedback">
+      <p>+</p>
+    </button>
+  </div>
+  <div class="pop-container">
+    <h1>New Job</h1>
+    <form action="#" id="pop-form">
+      <span class="close-popup1">&times;</span>
+      <label for="file">Choose File:</label>
+      <input type="file" name="file" id="file">
+      <label for="companyName">Company Name:</label>
+      <input type="text" placeholder="Enter Name" id="companyName" maxlength="12" required>
+      <label for="companyRole">Company Position:</label>
+      <!-- <input type="text" placeholder="Enter Role" id="companyRole" maxlength="20" required> -->
+      <select id="companyRole" name="companyRole">
+        <option value="Senior Frontend developer">Senior Frontend developer</option>
+        <option value="Fullstack Developer">Fullstack Developer</option>
+        <option value="Junior Frontend Developer">Junior Frontend Developer </option>
+        <option value="Junior BackEnd Developer">Junior BackEnd Developer</option>
+        <option value="Software Engineer">Software Engineer</option>
+        <option value="Junior Developer">Junior Developer</option>
+        <option value="Fullstack Engineer">Fullstack Engineer</option>
+        <option value="Senior Developer">Senior Developer</option>
+      </select>
+      <label for="postedTime">Posted Time:</label>
+      <!-- <input type="text" id="postedTime" name="postedTime" placeholder="Enter job Posting time" required> -->
+      <select id="postedTime" name="postedTime">
+        <option value="1w ago">1w ago</option>
+        <option value="3w ago">3w ago</option>
+        <option value="1m ago">1m ago</option>
+        <option value="1y ago">1y ago</option>
+      </select>
+      <label for="location">Location:</label>
+      <!-- <input type="text" id="location" name="location" placeholder="Enter Job Location" required> -->
+      <select id="location" name="location">
+        <option value="USA only">USA only</option>
+        <option value="UK only">UK only</option>
+        <option value="AUS only">AUS ony</option>
+        <option value="Remote">Remote</option>
+        <option value="WorldWide">WorldWide</option>
+      </select>
+      <label for="jobTime">Job Time:</label>
+      <select id="jobTime" name="jobTime">
+        <option value="Fulltime">Full Time</option>
+        <option value="Parttime">Part Time</option>
+        <option value="Contract">Contract</option>
+      </select>
+      <label for="role">Role:</label>
+      <select id="Role" name="role">
+        <option value="Front-End" data-role="Frontend">FrontEnd</option>
+        <option value="Back-End" data-role="BackEnd">BackEnd</option>
+        <option value="Fullstack" data-role="Fullstack">Fullstack</option>
+      </select>
+      <label for="level">Level:</label>
+      <select id="Level" name="level">
+        <option value="Junior" data-level="Junior">Junior</option>
+        <option value="Midweight" data-level="Mid-Level">Midweight</option>
+        <option value="Senior" data-level="Senior">Senior</option>
+      </select>
+      <label for="languages">Languages:</label>
+      <div id="lang_check"><label>
+          <input type="checkbox" name="languages[]" value="Python" data-languages="Python" id="languages"> Python
+        </label>
+        <label>
+          <input type="checkbox" name="languages[]" value="Ruby" data-languages="Ruby" id="languages"> Ruby
+        </label>
+        <label>
+          <input type="checkbox" name="languages[]" value="JavaScript" data-languages="JavaScript" id="languages">
+          JavaScript
+        </label>
+        <label>
+          <input type="checkbox" name="languages[]" value="Html" data-languages="HTML" id="languages"> Html
+        </label>
+        <label>
+          <input type="checkbox" name="languages[]" value="CSS" data-languages="CSS" id="languages"> CSS
+        </label>
+      </div>
+      <label for="tools">Tools:</label>
+      <div id="tool_check">
+        <label>
+          <input type="checkbox" name="tools[]" value="React" data-tools="React" id="tools"> React
+        </label>
+        <label>
+          <input type="checkbox" name="tools[]" value="Sass" data-tools="Sass" id="tools"> Sass
+        </label>
+        <label>
+          <input type="checkbox" name="tools[]" value="Vue" data-tools="Vue" id="tools"> Vue
+        </label>
+        <label>
+          <input type="checkbox" name="tools[]" value="Django" data-tools="Django" id="tools"> Django
+        </label>
+        <label>
+          <input type="checkbox" name="tools[]" value="RoR" data-tools="Ruby" id="tools"> RoR
+        </label>
+      </div>
+      <div class="submit-button">
+        <input type="submit" value="Submit">
+      </div>
+    </form>
+  </div>
+  <div class="popup-container">
+    <div class="popup-content">
+      <span class="close-popup">&times;</span>
+      <div id="newfirst"></div>
+      <h2 id="popup-company-name"></h2>
+      <p id="popup-company-role"></p>
+      <p id="popup-posted-time"></p>
+      <p id="popup-location"></p>
+      <p id="popup-job-time"></p>
+      <h2>Categories</h2>
+      <p id="popupRole"></p>
+      <p id="popupLevel"></p>
+      <p id="popupLanguages"></p>
+      <p id="popupTools"></p>
+    </div>
+  </div>
+  <footer>
+    <div class="footer-content">
+      <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" id="attribution">Frontend
+          Mentor</a>.
+        Coded by <a href="#">Abdul Subhan Cheema</a>.
+      </div>
+    </div>
+  </footer>
+  <script src="./index.js"></script>
+</body>
+
+</html>
