@@ -1,0 +1,634 @@
+{
+	"info": {
+		"_postman_id": "4ca13ae1-a096-4b4b-9f94-0495521faa68",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23761084"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"username\":\"A\",\n    \"email\":\"a@gmail.com\",\n    \"password\":\"a\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost/userregister",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"userregister"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\n    \"username\":\"C\",\n    \"email\":\"c@gmail.com\",\n    \"password\":\"c\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost/userregister",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"userregister"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost/userhome",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"userhome"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"username\":\"B1\",\n    \"email\":\"b1@gmail.com\",\n    \"password\":\"b1\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost/userhome/profile",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"userhome",
+						"profile"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"username\":\"B5\",\n    \"email\":\"b5@gmail.com\",\n    \"password\":\"b5\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost/userhome/profile",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"userhome",
+						"profile"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"content\":\"New post\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost/userhome/post",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"userhome",
+						"post"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost/userhome/posts",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"userhome",
+						"posts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"content\":\"post updated\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost/userhome/post/4",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"userhome",
+						"post",
+						"4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost/userhome/post/4",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"userhome",
+						"post",
+						"4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost/userhome/follow/3",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"userhome",
+						"follow",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost/userhome/follow/3",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"userhome",
+						"follow",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost/userhome/like/1/2",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"userhome",
+						"like",
+						"1",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost/userhome/like/1/2",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"userhome",
+						"like",
+						"1",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"commentText\":\"comment by me\"\n}"
+				},
+				"url": {
+					"raw": "localhost/userhome/comment/1/2",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"userhome",
+						"comment",
+						"1",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost/userhome/comment/1/2/1",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"userhome",
+						"comment",
+						"1",
+						"2",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost/userhome/viewnotifications",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"userhome",
+						"viewnotifications"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"username\":\"A\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost/userhome/search/username",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"userhome",
+						"search",
+						"username"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"keywords\":\"post\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost/userhome/search/keywords",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"userhome",
+						"search",
+						"keywords"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"username\":\"AbdulSubhan\",\n    \"email\":\"i211223@nu.edu.pk\",\n    \"password\":\"1223\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost/adminlogin",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"adminlogin"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost/adminhome",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"adminhome"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost/adminhome/profile",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"adminhome",
+						"profile"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost/adminhome/viewposts",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"adminhome",
+						"viewposts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost/adminhome/block/1",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"adminhome",
+						"block",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost/adminhome/unblock/1",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"adminhome",
+						"unblock",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost/adminhome/disable/1/1",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"adminhome",
+						"disable",
+						"1",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost/adminhome/enable/1/1",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"adminhome",
+						"enable",
+						"1",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost/users",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost/users",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"users"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
