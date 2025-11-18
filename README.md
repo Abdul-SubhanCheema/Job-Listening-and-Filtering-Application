@@ -1,9 +1,37 @@
-Web_Engineering
-I was required to build a functional website page for my web engineering assignment. I used jquery, html and css to build a job listing site. Here are some features of the website i have created.
+# 💼 Job Filtering Application
 
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![jQuery](https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white)
 
-<img width="1280" alt="Screenshot 2023-10-10 at 11 05 17 PM" src="https://github.com/Abdul-SubhanCheema/Web_Engineering/assets/147544006/6b6e0e38-9aaa-48df-8d8e-87da9f77e73c">
-<img width="1280" alt="Screenshot 2023-10-10 at 11 06 52 PM" src="https://github.com/Abdul-SubhanCheema/Web_Engineering/assets/147544006/fbdd7d78-6672-4b85-8af3-cf06f6229c03">
-<img width="1280" alt="Screenshot 2023-10-10 at 11 06 34 PM" src="https://github.com/Abdul-SubhanCheema/Web_Engineering/assets/147544006/08f7e8ec-4ddf-4d61-abc8-5d87d54468c0">
-<img width="1280" alt="Screenshot 2023-10-10 at 11 06 24 PM" src="https://github.com/Abdul-SubhanCheema/Web_Engineering/assets/147544006/230d1d19-7c5d-4529-93e3-602e179ebaa7">
-<img width="1280" alt="Screenshot 2023-10-10 at 11 06 01 PM" src="https://github.com/Abdul-SubhanCheema/Web_Engineering/assets/147544006/e03f9bc1-c1e5-444d-acc9-b957f8b87e42">
+**Dynamic job listing platform with advanced filtering capabilities**
+
+## 🎯 Features
+- **Dynamic Job Listings**: Real-time job display from JSON data
+- **Smart Filtering**: Filter by role, level, languages, and tools
+- **Interactive UI**: Click-to-filter job tags
+- **Responsive Design**: Mobile-friendly interface
+- **Clear Filters**: Easy reset functionality
+
+## 🚀 Quick Start
+```bash
+# Clone and open
+git clone <repository-url>
+cd Job-Listening-and-Filtering-Application
+open index.html
+```
+
+## 🛠️ Tech Stack
+- **Frontend**: HTML5, CSS3, JavaScript, jQuery
+- **Data**: JSON-based job listings
+- **Styling**: Custom CSS with responsive design
+- **Icons**: Company logos and visual elements
+
+## 📞 Contact
+
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Abdul-SubhanCheema)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/abdulsubhan303)
+
+---
+*Find your perfect job match! 🔍*
